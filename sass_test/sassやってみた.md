@@ -1,4 +1,5 @@
 Sassをやってみた
+qiita : https://qiita.com/nazopika/private/4cceb0ec0668411afb68
 
 #DL手順
 - Rubyが必要なので入れる Macならデフォで入っている
@@ -21,12 +22,16 @@ ex. GUIでコンパイル「Koala」「Scout」など
 #参考文献
 - http://websae.net/sass-compile-20140904/
 - http://vdeep.net/sass-scss
+- https://mocurot.jp/sass/555.html
 他　文中URL
 
 #めも
 - http://book.scss.jp/code/c2/04.html
 - http://www.ykst.de/i-made-blog-with-jekyll/
 - https://qiita.com/Ress/items/27fbbf5a973522e6f1c3
+- https://lab.sonicmoov.com/markup/sass-variable/ 変数の書き方？
+- http://css-happylife.com/archives/2012/0126_0001.php 同上
+- https://www.xenophy.com/sass/4148 カラーコードをカラーネームにしない
 
 ---
 ＊＊＊＊続編＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
