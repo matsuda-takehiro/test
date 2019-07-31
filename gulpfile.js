@@ -28,6 +28,32 @@ gulp.task("default", function() {
 });
 
 
+/*
+こういう書き方したい
+
+gulp.task("compile", function() {
+    // style.scssファイルを取得
+    return (
+        gulp
+            .src("sass_test/sass_src/test1.scss")
+            // Sassのコンパイルを実行
+            .pipe(
+                sass({
+                    outputStyle: "expanded",
+                    //indentType: 'tab',
+                    indentWidth: 4,
+                })
+                //TODO  .on("error", sass.logError)
+                //エラー避け
+            )
+            // cssフォルダー以下に保存
+            .pipe(gulp.dest("sass_test/sass_build"))
+    );
+});
+
+gulp.task("default", ["compile"]);
+*/
+
 /*　めも　
 npx gulp　で起動
 npxはここ　https://qiita.com/tonkotsuboy_com/items/8227f5993769c3df533d

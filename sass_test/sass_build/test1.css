@@ -1,0 +1,16 @@
+#AAAAA_XXXXXXXXX {
+    height: 250px;
+    width: 250px;
+    background-color: #ff4444;
+    margin: auto;
+    border-radius: 5px;
+    border: solid 1px #c3c3c3;
+}
+
+#AAAAA_XXXXXXXXX .AAAAA-item {
+    padding: 0px;
+}
+
+#AAAAA_XXXXXXXXX.blue-border {
+    border-color: blue;
+}
