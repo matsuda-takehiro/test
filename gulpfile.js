@@ -3,12 +3,12 @@ const gulp = require("gulp");
 // Sassをコンパイルするプラグインの読み込み
 const sass = require("gulp-sass");
 
-//TODO
+//TODO　ちょっと使ってみたい
 //var FILE_NAME = minimist(process.argv.slice(2)).src; // 第一引数 `gulp [taskName] --src param1Value`
 
-// style.scssをタスクを作成する
+// style.scssをタスクを作成する　←なんだっけこれ
 
-/*
+/*　旧
 gulp.task("default", function() {
     // style.scssファイルを取得
     return (
@@ -53,6 +53,8 @@ gulp.task("compile", function() {
 
 gulp.task('default', gulp.task("compile"));
 
+
+
 /*
 gulp v.4から書き方がかわりました
 gulp.task("default",["compile","hoge"]);って書いていたが、引数が３から２になってしまったので下記を使おう！
@@ -87,10 +89,4 @@ gulp.task('def', function () {
 });
 
 なんて書くのもええんかね、いや長いか　というかなんだろう
-*/
-
-/*　めも　
-npx gulp　で起動
-npxはここ　https://qiita.com/tonkotsuboy_com/items/8227f5993769c3df533d
-
 */
