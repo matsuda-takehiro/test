@@ -27,4 +27,10 @@ https://ja.stackoverflow.com/questions/42788/npm-package-lock-json-%E3%81%8C%E3%
 
 これも弾いておいた
 
+## gulpの使い方
 npx gulpでもすればgulpfileの内容的にsassのコンパイルしてくれるはず
+
+詳しくはここ　https://qiita.com/tonkotsuboy_com/items/8227f5993769c3df533d
+
+# そもそもどこにメモ書きすべきか
+qiita？Evernote？それともりーどみー？　jsファイルの中に直接書くってどうなんだこれ
