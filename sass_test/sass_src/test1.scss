@@ -1,0 +1,18 @@
+$color : #ff4444 !default;
+$blue : blue
+@charset "utf-8";
+
+    #AAAAA_XXXXXXXXX {
+        height: 250px;
+        width: 250px;
+        background-color: $color;
+        margin: auto;
+        border-radius: 5px;
+        border: solid 1px #c3c3c3;
+        .AAAAA-item {
+            padding: 0px;
+        }
+        &.blue-border{
+            border-color: $blue;
+        }
+    }
